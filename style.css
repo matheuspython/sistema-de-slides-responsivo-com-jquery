@@ -32,3 +32,21 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
+
+.container-slider-buttons {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translatex(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.container-slider-buttons span {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    background-color: #cccc;
+    border-radius: 8px;
+    float: left;
+    margin: 0 10px;
+}
